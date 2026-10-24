@@ -108,7 +108,7 @@ export default function Dashboard({isOpen, onClose}){
         </a>
         <a href='/Recommendations' onClick={handleNavigate3} className='dashboard-link'>
           <RecommendationsIcon/>
-          <span>Recommendations</span>
+          <span>Guidance</span>
         </a>
         <a href='/Weather' onClick={handleNavigate4} className='dashboard-link'>
           <WeatherIcon/>
